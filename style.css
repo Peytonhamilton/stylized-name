@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+    font-size: 5rem;
+    color: #ff69b4;
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon-glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4, 0 0 80px #ff69b4;
+    }
+}
